@@ -68,27 +68,55 @@ html {
   font-family: Calibri, 'Trebuchet MS', sans-serif;
   background: linear-gradient(180deg, #84daf5, #89ffff, #affffa, #ffffff);
 }
-body {
+/*Pt1 step 1 */
+body { margin-top: 1rem;
+       margin-bottom: 1rem;
+       margin-left: 5rem;
+       margin-right: 5rem;
 }
+/* PT1 step 2 */
 
-h1 {
+h1 {filter: drop-shadow(2px,2px,);
+  filter: drop-shadow(blur 1px);
+  color: #0f6a9e;
   text-align: center;
 }
+/* adding id tag to change caption aboe top image. */
+.caption{
+  color: rgb(0, 58, 66);
+}
+
+
 h2 {
   margin: 4rem auto 1rem auto;
   text-align: center;
 }
+/* PT1 step 3*/
 p,
-li {
+li {font-size: 20px;
 }
-ol {
+ol {font-size: 20px;
   padding: 20px;
 }
 
-ol li {
+ol li {font-size: 20px;
   padding: 10px 0;
 }
-img {
+img { margin-top: 1rem;
+      margin-bottom: 1rem;
+      margin-left: 1rem;
+      margin-right: 1rem;
+      border-radius: 1rem;
+      box-shadow: (2px 2px 2px 1px ) rgb(black, 0.5);
+
+
+
+      
+      
+      
+      
+      
+
 }
 figcaption {
   text-align: center;
@@ -96,6 +124,7 @@ figcaption {
 }
 footer {
   margin: 2rem 0 2rem 0;
+  text-align: center;
 }
 
 /* ---CUSTOM CLASS NAME SELECTORS--- */
